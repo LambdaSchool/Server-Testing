@@ -2,7 +2,7 @@
 	"name": "testingserver",
 	"version": "1.0.0",
 	"description": "Server Testing Project",
-	"main": "server.js",
+	"main": "index.js",
 	"scripts": {
 		"test": "jest --watch --verbose"
 	},
@@ -25,6 +25,8 @@
 		"supertest": "^3.3.0"
 	},
 	"dependencies": {
-		"express": "^4.16.4"
+		"express": "^4.16.4",
+		"knex": "^0.15.2",
+		"sqlite3": "^4.0.4"
 	}
 }
